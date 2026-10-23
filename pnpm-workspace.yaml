@@ -1,0 +1,3 @@
+# Marks this folder as its own pnpm root, so a pnpm-workspace.yaml in a parent folder is ignored.
+packages:
+  - '.'

@@ -1,0 +1,22 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Config-driven BDD test automation template for any HTTP/JSON API (Cucumber)",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "packageManager": "pnpm@11.5.3",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:example": "node examples/run.js",
+    "test:unit": "node --test test/*.test.js",
+    "example:server": "node examples/mock-server.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

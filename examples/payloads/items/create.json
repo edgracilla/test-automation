@@ -1,0 +1,9 @@
+{
+  "name": "${name}",
+  "price": "${price}",
+  "tags": ["${tag_1}", "${tag_2}", "${tag_3}"],
+  "details": {
+    "sku": "${sku}",
+    "color": "${color}"
+  }
+}
